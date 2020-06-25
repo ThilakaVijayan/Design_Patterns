@@ -1,0 +1,8 @@
+1. State pattern implements polymorphism
+2. Open closed principle - "software entities should be open for extension, but closed for modification"
+3. Use abstract class when an default implementation is needed. Else use interface.
+4. This reduces cyclomatic complexity in an application.
+5. For new state- add new class, instead of rewriting the if else conditions.
+6. 'Encapsulate that varies' principle
+7. Localize the behavior of each state into its own class
+8. This design always increases the number of class.

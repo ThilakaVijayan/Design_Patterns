@@ -1,0 +1,8 @@
+package com.thilaka.design.patterns.behavioural.state.pluralsight;
+
+public abstract class State {
+
+    public void handleRequest(){
+        System.out.println("Shouldn't be able to get here.");
+    }
+}
