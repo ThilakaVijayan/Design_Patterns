@@ -1,0 +1,12 @@
+1. defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+Strategy lets the algorithm vary independently from clients that use it.
+1. Difference between state and strategy pattern.
+    * In state pattern the object can have a single state and all the subclass
+    can represent the behaviour of this state.
+    * In strategy pattern, we don't have single state, but multiple fields.
+    Different behaviour are represented by different objects.
+   - In strategy - the client have to know the strategies to use it.
+   - in State - the client doesn't have to know the various states.
+   * In strategy - the concrete strategy class doesnt know about other strategy
+   * In state - the concrete state class knows about the next state.
+2. We use this pattern when we want to eliminate the conditional statements

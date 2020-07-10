@@ -1,0 +1,41 @@
+package com.thilaka.design.patterns.behavioural.strategy.pluralsight.example1;
+
+public class Person {
+
+    private String name;
+    private String phoneNumber;
+    private int age;
+
+    public Person() {
+    }
+
+    public Person(String name, String phoneNumber,int age) {
+        this.name = name;
+        this.phoneNumber = phoneNumber;
+        this.age = age;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+}
