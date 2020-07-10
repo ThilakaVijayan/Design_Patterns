@@ -1,2 +1,5 @@
+Used when we have to iterate over a collection, without exposing how the collection is
+implemented.
+
 1. It relies on the interface called 'Iterator'
 2. Enumeration is an old implementation for Iterator, and we should use Iterator.

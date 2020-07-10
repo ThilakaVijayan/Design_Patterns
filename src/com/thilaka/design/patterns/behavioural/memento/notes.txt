@@ -1,3 +1,5 @@
+Used for undo mechanism. Stores previous states of an object in a list.
+
 1. Used to implement undo mechanism.
 2. Externalize an object state, and is used to revert back.
-3. Access to originator content have to be gaurded.
+3. Access to originator content have to be guarded.

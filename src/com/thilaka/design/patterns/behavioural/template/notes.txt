@@ -1,0 +1,8 @@
+When we have to set a process flow.
+
+1. use hooks - a concrete method, but it does nothing. subclasses can override it,
+but don't have to.
+2. template method sits in the abstract class. This method is declared as final,
+to avoid subclassess from changing the sequence of steps in the algorithm.
+3. This implements the Hollywood principle :)
+"Don't call us, we'll call you."

@@ -1,3 +1,5 @@
+When we have to do a process, but the algorith used to the process would change at runtime.
+
 1. defines a family of algorithms, encapsulates each one, and makes them interchangeable.
 Strategy lets the algorithm vary independently from clients that use it.
 1. Difference between state and strategy pattern.
