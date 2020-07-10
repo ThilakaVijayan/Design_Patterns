@@ -1,0 +1,2 @@
+1. It relies on the interface called 'Iterator'
+2. Enumeration is an old implementation for Iterator, and we should use Iterator.
