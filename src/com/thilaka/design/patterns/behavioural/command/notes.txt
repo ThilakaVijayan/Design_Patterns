@@ -1,0 +1,13 @@
+1. to encapsulate each request as an object. (used a lot in web frameworks)
+2. can be used to implement 'undo' functionality.
+(remember mememto pattern was used solely for undo patteen?)
+3. one object per command.
+4. It has a 'Command' interface, with an 'execute' method.
+In case of undo feature it will also have an 'unexecute' method.
+5. Second most used pattern after singleton pattern.
+6. This pattern may support undo feature. it restores the
+object to the previous state before execute() method was called.
+7. Macro command - extention of command that allow multiple command to be invoked.
+macro command can also support undo().
+8. Command is also used for logging and transactional systems. job queue, recover after a crash.
+recover after a crash - store() and load() method to store and execute the methods in the same order after a crash.
