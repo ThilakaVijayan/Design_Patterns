@@ -2,6 +2,8 @@ package com.thilaka.design.patterns.behavioural.command.head.first.complete.impl
 
 import com.thilaka.design.patterns.behavioural.command.head.first.complete.implementation.Command;
 
+import java.util.Arrays;
+
 public class MacroCommand implements Command {
     private Command[] commands;
 
@@ -11,13 +13,14 @@ public class MacroCommand implements Command {
 
     @Override
     public void execute() {
-        for (Command command : commands)
+        for (var command : commands)
             command.execute();
     }
 
     @Override
     public void undo() {
-        for (Command command : commands)
-            command.undo();
+        Arrays.stream(commands).forEach(Command::undo);//use streams instead of for loops.
+        //for (var command : commands)
+        //            command.undo();
     }
 }

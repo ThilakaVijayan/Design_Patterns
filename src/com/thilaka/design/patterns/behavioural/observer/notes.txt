@@ -1,0 +1,2 @@
+1. publishers and subscribers concept.
+Publishers are called 'Subject'. Subscribers are called 'Observers'.
